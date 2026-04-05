@@ -13,7 +13,7 @@ Pastas: `Back-End/` (API) e `Front-End/` (interface).
 
 - **Java 21** e **Maven** (o projeto traz o wrapper `./mvnw` na pasta `Back-End`).
 - **Node.js** e **npm** para rodar o front.
-- **PostgreSQL** configurado em `Back-End/src/main/resources/application.properties` **ou**, para testar sem instalar Postgres, use o perfil **`dev`** (banco H2 em memória — ver abaixo).
+- **PostgreSQL** configurado em `Back-End/src/main/resources/application.properties` **ou**, para testar sem o PostgreSQL, use o perfil **`dev`** (banco H2 em memória).
 
 ## Como subir e testar
 
@@ -25,10 +25,10 @@ Terminal na pasta `Back-End`:
 ./mvnw spring-boot:run
 ```
 
-Com **PostgreSQL** indisponível na máquina, use:
+Com **PostgreSQL** indisponível via NeonConsole Web, use:
 
 ```bash
-./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+./mvnw spring-boot:run
 ```
 
 A API fica em **http://localhost:8080**. Endpoints principais: `/produtos`, `/pedidos`, `/itens`.

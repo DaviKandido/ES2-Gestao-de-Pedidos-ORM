@@ -2,7 +2,7 @@
 
 **Pontifícia Universidade Católica de Minas Gerais (PUC Minas)** · **Curso:** Ciência da Computação  
 **Disciplina:** Engenharia de Software 2  
-**Autores:** *(informe os nomes da equipe)*
+**Autore:** *Davi Cândido de Almeida*
 
 ## 📌 Sobre o Projeto
 
